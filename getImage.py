@@ -12,7 +12,7 @@ def getImage():
 
         if cv2.waitKey(1) & 0xFF == ord('y'):  # save on pressing 'y'
 
-            cv2.imwrite('image.png', img) #saves to the folder as image.png
+            cv2.imwrite('Image.png', img) #saves to the folder as image.png
             cv2.destroyAllWindows()
             break
 
